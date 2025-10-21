@@ -23,10 +23,13 @@ Utilizando a ferramenta **Pentmenu** no Kali Linux, foram executados ataques que
 
 O objetivo principal é demonstrar como cada ataque explora uma fraqueza diferente e como um defensor pode usar ferramentas como `top`, `netstat` e `ping` para diagnosticar o tipo de ataque em andamento.
 
-> **Imagens e evidências do processo estão na pasta:** `images/`  
-> - ICMP Echo Flood → `images/ICMP Echo Flood/`  
-> - Slowloris → `images/Slowloris/`  
-> - TCP SYN Flood → `images/TCP SYN Flood/`
+### Evidências
+Todas as imagens e evidências do processo estão organizadas na pasta a seguir. Clique nos links para navegar diretamente para as capturas de tela de cada ataque.  
+Pasta Principal: [images/](images/)  
+Ataque ICMP Echo Flood: [images/ICMP Echo Flood/](images/ICMP%20Echo%20Flood/)  
+Ataque Slowloris: [images/Slowloris/](images/Slowloris/)  
+Ataque TCP SYN Flood: [images/TCP SYN Flood/](images/TCP%20SYN%20Flood/)
+
 
 ---
 
@@ -137,4 +140,5 @@ Cada tipo de ataque requer uma estratégia de defesa diferente:
 
 Este estudo prático demonstrou que ataques de Negação de Serviço são multifacetados, com cada tipo deixando uma "impressão digital" diferente no sistema alvo.  
 Para um profissional de segurança (especialmente do *Blue Team*), saber identificar esses sintomas — seja através do estado das conexões em `netstat` ou do consumo de recursos em `top` — é crucial para diagnosticar rapidamente o tipo de ataque e aplicar a mitigação correta.
-```
+
+---
