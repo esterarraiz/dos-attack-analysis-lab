@@ -1,4 +1,3 @@
-```markdown
 # Estudo de Caso: Análise de Ataques de Negação de Serviço (DoS)
 
 **Autor:** Ester Arraiz de Matos  
